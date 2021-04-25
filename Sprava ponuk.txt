@@ -41,8 +41,8 @@
 	</transition>
 	<transition>
 		<id>t9</id>
-		<x>570</x>
-		<y>666</y>
+		<x>644</x>
+		<y>651</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -50,8 +50,8 @@
 	</transition>
 	<transition>
 		<id>t10</id>
-		<x>822</x>
-		<y>613</y>
+		<x>955</x>
+		<y>581</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -68,8 +68,8 @@
 	</transition>
 	<transition>
 		<id>t12</id>
-		<x>1158</x>
-		<y>662</y>
+		<x>1296</x>
+		<y>649</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -95,8 +95,8 @@
 	</transition>
 	<transition>
 		<id>t15</id>
-		<x>1516</x>
-		<y>634</y>
+		<x>1614</x>
+		<y>607</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -113,12 +113,21 @@
 	</transition>
 	<transition>
 		<id>t17</id>
-		<x>1872</x>
-		<y>666</y>
+		<x>1998</x>
+		<y>642</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
 		<label>Posle email zamestnavatelovi aby opravil pracovnu ponuku</label>
+	</transition>
+	<transition>
+		<id>t18</id>
+		<x>1171</x>
+		<y>1027</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Odstranenie nevhodnych pracovych ponuk od stranky</label>
 	</transition>
 	<!-- PLACES -->
 	<place>
@@ -187,9 +196,17 @@
 	</place>
 	<place>
 		<id>p21</id>
-		<x>2183</x>
-		<y>369</y>
-		<label>Zverejni sa pracovna ponuka na stranke</label>
+		<x>2227</x>
+		<y>370</y>
+		<label>Pracovna ponuka je vhodna</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p22</id>
+		<x>2011</x>
+		<y>1014</y>
+		<label>Nevhodne pracovne ponuky boli odstranene</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -360,6 +377,20 @@
 		<type>regular</type>
 		<sourceId>t16</sourceId>
 		<destinationId>p21</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a47</id>
+		<type>regular</type>
+		<sourceId>p20</sourceId>
+		<destinationId>t18</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a48</id>
+		<type>regular</type>
+		<sourceId>t18</sourceId>
+		<destinationId>p22</destinationId>
 		<multiplicity>1</multiplicity>
 	</arc>
 </document>
