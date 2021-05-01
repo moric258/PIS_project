@@ -43,12 +43,12 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>vyber moznosti vytvorenia pracovnej ponuky </label>
+		<label>Výber možnosti vytvorenia pracovnej ponuky</label>
 	</transition>
 	<transition>
 		<id>t2</id>
-		<x>540</x>
-		<y>260</y>
+		<x>623</x>
+		<y>280</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -56,21 +56,12 @@
 	</transition>
 	<transition>
 		<id>t5</id>
-		<x>940</x>
-		<y>460</y>
+		<x>1261</x>
+		<y>468</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
 		<label>potvrdenie vyplnenia form.</label>
-	</transition>
-	<transition>
-		<id>t7</id>
-		<x>1260</x>
-		<y>180</y>
-		<layout>
-			<offset>0</offset>
-		</layout>
-		<label>uspesne zaevidovanie</label>
 	</transition>
 	<transition>
 		<id>t8</id>
@@ -79,12 +70,12 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Kliknutie na vytvorenie životopisu</label>
 	</transition>
 	<transition>
 		<id>t9</id>
-		<x>540</x>
-		<y>340</y>
+		<x>617</x>
+		<y>390</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -92,8 +83,8 @@
 	</transition>
 	<transition>
 		<id>t10</id>
-		<x>540</x>
-		<y>460</y>
+		<x>618</x>
+		<y>497</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -101,8 +92,8 @@
 	</transition>
 	<transition>
 		<id>t11</id>
-		<x>540</x>
-		<y>540</y>
+		<x>617</x>
+		<y>602</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -110,8 +101,8 @@
 	</transition>
 	<transition>
 		<id>t12</id>
-		<x>540</x>
-		<y>660</y>
+		<x>618</x>
+		<y>719</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -119,12 +110,12 @@
 	</transition>
 	<transition>
 		<id>t13</id>
-		<x>1180</x>
-		<y>860</y>
+		<x>1094</x>
+		<y>1126</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Potvrdenie spracovania osobných údajov</label>
 	</transition>
 	<transition>
 		<id>t14</id>
@@ -133,7 +124,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Zadaj meno</label>
 	</transition>
 	<transition>
 		<id>t15</id>
@@ -142,7 +133,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Zadaj vek</label>
 	</transition>
 	<transition>
 		<id>t16</id>
@@ -151,7 +142,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Zadaj dosiahnuté vzdelanie</label>
 	</transition>
 	<transition>
 		<id>t17</id>
@@ -160,7 +151,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Zadaj kontakt</label>
 	</transition>
 	<transition>
 		<id>t18</id>
@@ -169,46 +160,92 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label></label>
+		<label>Potvrdenie vyplnenia formuláru</label>
+	</transition>
+	<transition>
+		<id>t20</id>
+		<x>1929</x>
+		<y>288</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Odoslanie formuláru pracovnej ponuky</label>
+	</transition>
+	<transition>
+		<id>t21</id>
+		<x>1916</x>
+		<y>500</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Chybová hláška nevyplnenia povinných údajov</label>
+	</transition>
+	<transition>
+		<id>t22</id>
+		<x>2200</x>
+		<y>171</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Zaevidovanie novej pracovnej ponuky</label>
+	</transition>
+	<transition>
+		<id>t23</id>
+		<x>1736</x>
+		<y>1123</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Odoslanie formuláru životopisu</label>
+	</transition>
+	<transition>
+		<id>t24</id>
+		<x>1736</x>
+		<y>990</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Chybová hláška nevyplnenia povinných údajov</label>
+	</transition>
+	<transition>
+		<id>t25</id>
+		<x>2035</x>
+		<y>1331</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Zaevidovanie nového životopisu</label>
 	</transition>
 	<!-- PLACES -->
 	<place>
 		<id>p1</id>
 		<x>140</x>
 		<y>180</y>
-		<label>stranka s prac. ponukami</label>
+		<label>Stránka s pracovnými ponukami</label>
 		<tokens>1</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p2</id>
-		<x>340</x>
-		<y>460</y>
-		<label>formular prac. ponuky</label>
+		<x>375</x>
+		<y>498</y>
+		<label>Formulár parcovnej ponuky</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p3</id>
-		<x>740</x>
-		<y>260</y>
+		<x>1021</x>
+		<y>281</y>
 		<label>zadana prac. ponuka</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
-		<id>p5</id>
-		<x>1260</x>
-		<y>460</y>
-		<label>zaevidovanie ponuky</label>
-		<tokens>0</tokens>
-		<static>false</static>
-	</place>
-	<place>
 		<id>p7</id>
-		<x>140</x>
-		<y>820</y>
-		<label>stranka </label>
+		<x>132</x>
+		<y>1360</y>
+		<label>Úvodná stránka</label>
 		<tokens>1</tokens>
 		<static>false</static>
 	</place>
@@ -216,7 +253,7 @@
 		<id>p9</id>
 		<x>340</x>
 		<y>1020</y>
-		<label></label>
+		<label>Formulár životopisu</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -224,55 +261,47 @@
 		<id>p10</id>
 		<x>700</x>
 		<y>1060</y>
-		<label></label>
+		<label>Zadané dosiahnuté vzdelanie</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p11</id>
-		<x>740</x>
-		<y>340</y>
+		<x>1021</x>
+		<y>390</y>
 		<label>zadany druh prac. pomeru</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p12</id>
-		<x>740</x>
-		<y>460</y>
+		<x>1018</x>
+		<y>508</y>
 		<label>zadany kontakt</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p13</id>
-		<x>740</x>
-		<y>540</y>
+		<x>1029</x>
+		<y>603</y>
 		<label>zadana mzda</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p14</id>
-		<x>740</x>
-		<y>660</y>
+		<x>1047</x>
+		<y>724</y>
 		<label>zadany termin nastupu</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
-		<id>p15</id>
-		<x>1100</x>
-		<y>460</y>
-		<label></label>
-		<tokens>0</tokens>
-		<static>false</static>
-	</place>
-	<place>
 		<id>p16</id>
-		<x>1180</x>
-		<y>1020</y>
-		<label></label>
+		<x>1452</x>
+		<y>1123</y>
+		<label>Životopis pripravený na odoslanie</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -280,7 +309,7 @@
 		<id>p18</id>
 		<x>699</x>
 		<y>867</y>
-		<label></label>
+		<label>Zadané meno</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -288,7 +317,7 @@
 		<id>p19</id>
 		<x>700</x>
 		<y>980</y>
-		<label></label>
+		<label>Zadaný vek</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -296,15 +325,39 @@
 		<id>p20</id>
 		<x>700</x>
 		<y>1180</y>
-		<label></label>
+		<label>Zadaný kontakt</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p21</id>
-		<x>980</x>
-		<y>980</y>
-		<label></label>
+		<x>1096</x>
+		<y>982</y>
+		<label>Vyplnený formulár životopisu</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p22</id>
+		<x>1705</x>
+		<y>286</y>
+		<label>Formulár priravený na odoslanie</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p23</id>
+		<x>2217</x>
+		<y>292</y>
+		<label>Kontrola vyplnenia povinných údajov</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p26</id>
+		<x>2032</x>
+		<y>1115</y>
+		<label>Kontrola vyplnenia povinných údajov</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -345,27 +398,13 @@
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a9</id>
-		<type>regular</type>
-		<sourceId>p5</sourceId>
-		<destinationId>t7</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
-		<id>a12</id>
-		<type>regular</type>
-		<sourceId>t7</sourceId>
-		<destinationId>p1</destinationId>
-		<multiplicity>1</multiplicity>
-	</arc>
-	<arc>
 		<id>a14</id>
 		<type>inhibitor</type>
 		<sourceId>p3</sourceId>
 		<destinationId>t2</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>620</x><y>220</y></breakPoint>
-		<breakPoint><x>620</x><y>220</y></breakPoint>
+		<breakPoint><x>847</x><y>231</y></breakPoint>
+		<breakPoint><x>761</x><y>226</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a15</id>
@@ -401,7 +440,7 @@
 		<sourceId>p11</sourceId>
 		<destinationId>t9</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>620</x><y>300</y></breakPoint>
+		<breakPoint><x>831</x><y>342</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a20</id>
@@ -409,7 +448,7 @@
 		<sourceId>p12</sourceId>
 		<destinationId>t10</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>620</x><y>420</y></breakPoint>
+		<breakPoint><x>813</x><y>461</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a21</id>
@@ -445,7 +484,7 @@
 		<sourceId>p13</sourceId>
 		<destinationId>t11</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>620</x><y>500</y></breakPoint>
+		<breakPoint><x>773</x><y>555</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a26</id>
@@ -453,7 +492,7 @@
 		<sourceId>p14</sourceId>
 		<destinationId>t12</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>620</x><y>620</y></breakPoint>
+		<breakPoint><x>811</x><y>677</y></breakPoint>
 	</arc>
 	<arc>
 		<id>a27</id>
@@ -622,10 +661,108 @@
 		<multiplicity>1</multiplicity>
 	</arc>
 	<arc>
-		<id>a50</id>
+		<id>a53</id>
+		<type>regular</type>
+		<sourceId>p22</sourceId>
+		<destinationId>t20</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a54</id>
+		<type>regular</type>
+		<sourceId>t20</sourceId>
+		<destinationId>p23</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a55</id>
+		<type>regular</type>
+		<sourceId>p23</sourceId>
+		<destinationId>t21</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a56</id>
+		<type>regular</type>
+		<sourceId>t21</sourceId>
+		<destinationId>p22</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a57</id>
+		<type>regular</type>
+		<sourceId>p23</sourceId>
+		<destinationId>t22</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a59</id>
 		<type>regular</type>
 		<sourceId>t5</sourceId>
-		<destinationId>p15</destinationId>
+		<destinationId>p22</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a60</id>
+		<type>regular</type>
+		<sourceId>t22</sourceId>
+		<destinationId>p1</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a61</id>
+		<type>regular</type>
+		<sourceId>p21</sourceId>
+		<destinationId>t13</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a62</id>
+		<type>regular</type>
+		<sourceId>t13</sourceId>
+		<destinationId>p16</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a63</id>
+		<type>regular</type>
+		<sourceId>p16</sourceId>
+		<destinationId>t23</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a64</id>
+		<type>regular</type>
+		<sourceId>t23</sourceId>
+		<destinationId>p26</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a65</id>
+		<type>regular</type>
+		<sourceId>p26</sourceId>
+		<destinationId>t24</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a66</id>
+		<type>regular</type>
+		<sourceId>t24</sourceId>
+		<destinationId>p16</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a67</id>
+		<type>regular</type>
+		<sourceId>p26</sourceId>
+		<destinationId>t25</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a68</id>
+		<type>regular</type>
+		<sourceId>t25</sourceId>
+		<destinationId>p7</destinationId>
 		<multiplicity>1</multiplicity>
 	</arc>
 </document>
