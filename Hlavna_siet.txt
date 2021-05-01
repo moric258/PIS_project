@@ -109,7 +109,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyberanie moznost prihlasenie ako uchádzač</label>
+		<label>Vyberatie možnosti prihlásenia ako uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -181,7 +181,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyberanie moznost prihlasenie ako zamestnávateľ</label>
+		<label>Vyberanie možnosti prihlasenie ako zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -253,7 +253,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Udaje su validovane presmeruje sa na stránku uchádzača</label>
+		<label>Údaje su validné presmeruje sa na stránku uchádzača</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -275,12 +275,12 @@
 	</transition>
 	<transition>
 		<id>t12</id>
-		<x>1393</x>
-		<y>1869</y>
+		<x>1378</x>
+		<y>1877</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Udaje su validovane presmeruje sa na stránku zamestnávateľa</label>
+		<label>Údaje su validné presmeruje sa na stránku zamestnávateľa</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -307,7 +307,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>zamestnavatel vyplni formular</label>
+		<label>Zamestnávateľ vyplní formulár</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -364,7 +364,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>chyba pri vyplneni formular</label>
+		<label>Chyba pri prihlásení zamestnávateľa</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -391,7 +391,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>uchadzac vyplni formular</label>
+		<label>Uchádzač vyplní formulár</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -443,12 +443,12 @@
 	</transition>
 	<transition>
 		<id>t25</id>
-		<x>941</x>
-		<y>858</y>
+		<x>945</x>
+		<y>868</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>chyba pri vypplneni formular</label>
+		<label>Chyba pri vyplnení formuláru</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -833,7 +833,7 @@
 		<id>p12</id>
 		<x>2052</x>
 		<y>749</y>
-		<label>Pouzivatel je prihlaseny ako uchadzac</label>
+		<label>Prihlásenie ako uchádzač</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -841,7 +841,7 @@
 		<id>p13</id>
 		<x>1976</x>
 		<y>1856</y>
-		<label>Pouzivatel je prihlaseny ako zamestnavatel</label>
+		<label>Prihlásenie ako zamestnávateľ</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -849,15 +849,15 @@
 		<id>p27</id>
 		<x>615</x>
 		<y>1708</y>
-		<label>System zobrazi formular </label>
+		<label>Formulár prihlásenia zamestnávateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p29</id>
-		<x>1111</x>
-		<y>1860</y>
-		<label>System kontroluje udaje</label>
+		<x>1128</x>
+		<y>1795</y>
+		<label>Systém skontroluje prihlásenie zamestnávateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -865,7 +865,7 @@
 		<id>p30</id>
 		<x>632</x>
 		<y>763</y>
-		<label>System zobrazi formular</label>
+		<label>Formulár prihlásenia uchádzača</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
@@ -873,7 +873,7 @@
 		<id>p32</id>
 		<x>1363</x>
 		<y>755</y>
-		<label>system kontroluje</label>
+		<label>Systém skontroluje prihlásenie uchádzača</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
