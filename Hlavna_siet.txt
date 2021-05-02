@@ -233,6 +233,68 @@
 		<id>text_31</id>
 		<title>Adresa</title>
 	</data>
+	<data type="button">
+		<id>button_10</id>
+		<title>Registrovať ako uchádzač</title>
+	</data>
+	<data type="text">
+		<id>text_32</id>
+		<title>Email</title>
+	</data>
+	<data type="text">
+		<id>text_33</id>
+		<title>Heslo</title>
+	</data>
+	<data type="text">
+		<id>text_34</id>
+		<title>Potvrdťe heslo</title>
+	</data>
+	<data type="button">
+		<id>button_12</id>
+		<title>Zaregistrovať</title>
+	</data>
+	<data type="button">
+		<id>button_13</id>
+		<title>Registrovať ako zamestnávateľ</title>
+	</data>
+	<data type="button">
+		<id>button_14</id>
+		<title>Zaregistrovať</title>
+	</data>
+	<data type="text">
+		<id>text_35</id>
+		<title>Email</title>
+	</data>
+	<data type="text">
+		<id>text_36</id>
+		<title></title>
+		<placeholder>Heslo</placeholder>
+		<values>area</values>
+	</data>
+	<data type="text">
+		<id>text_37</id>
+		<title>Potvrdte heslo</title>
+	</data>
+	<data type="text">
+		<id>text_38</id>
+		<title>Spoločnosť</title>
+	</data>
+	<data type="text">
+		<id>text_39</id>
+		<title>IČO</title>
+	</data>
+	<data type="text">
+		<id>text_40</id>
+		<title></title>
+	</data>
+	<data type="multichoice">
+		<id>multichoice_2</id>
+		<title>Pracovné ponuky</title>
+	</data>
+	<data type="button">
+		<id>button_15</id>
+		<title>Vymazať pracovnú ponuku</title>
+	</data>
 	<!-- I18NS -->
 	<!-- TRANSITIONS -->
 	<transition>
@@ -609,6 +671,24 @@
 			<offset>0</offset>
 		</layout>
 		<label>Registrovanie ako uchádzač</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_10</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t29</id>
@@ -618,6 +698,24 @@
 			<offset>0</offset>
 		</layout>
 		<label>Registrovanie ako zamestnávateľ</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_13</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t30</id>
@@ -627,6 +725,55 @@
 			<offset>0</offset>
 		</layout>
 		<label>Vyplnenie registrácie uchádzača</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>text_32</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_33</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>1</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_34</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>2</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t31</id>
@@ -636,6 +783,100 @@
 			<offset>0</offset>
 		</layout>
 		<label>Vyplnenie registrácie zamestnávateľa</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>text_35</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_36</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>1</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_37</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>2</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_38</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>3</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_39</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>4</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_40</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>5</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t32</id>
@@ -645,6 +886,24 @@
 			<offset>0</offset>
 		</layout>
 		<label>Uchádač odošle registráciu</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_12</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t33</id>
@@ -654,6 +913,24 @@
 			<offset>0</offset>
 		</layout>
 		<label>Zamestnávateľ odošle registráciu</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_14</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t35</id>
@@ -719,7 +996,6 @@
 		<label>Vytvorenie novej pracovnej ponuky</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_9</id>
 				<logic>
@@ -732,6 +1008,7 @@
 					<cols>2</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -746,7 +1023,6 @@
 		<label>Vyplnenie formuláru pracovnej ponuky</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>text_26</id>
 				<logic>
@@ -937,6 +1213,25 @@
 			<offset>0</offset>
 		</layout>
 		<label>Zamestnávateľ vyberie pracovnú ponuku</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>multichoice_2</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t66</id>
@@ -946,6 +1241,24 @@
 			<offset>0</offset>
 		</layout>
 		<label>Zamestnávateľ klikne na vymazať pracovnú ponuku</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_15</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t68</id>
@@ -1323,7 +1636,6 @@
 		<label>Vyplnenie formuláru životopisu</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>text_15</id>
 				<logic>
