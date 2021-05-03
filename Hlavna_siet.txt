@@ -26,10 +26,6 @@
 		<id>button_2</id>
 		<title>Zamestnavatel</title>
 	</data>
-	<data type="button">
-		<id>button_3</id>
-		<title>Administrator</title>
-	</data>
 	<data type="text">
 		<id>text_0</id>
 		<title>Prihlasit ako :</title>
@@ -295,6 +291,13 @@
 		<id>button_15</id>
 		<title>Vymazať pracovnú ponuku</title>
 	</data>
+	<data type="enumeration">
+		<id>enumeration_1</id>
+		<title></title>
+		<view>
+			<list/>
+		</view>
+	</data>
 	<!-- I18NS -->
 	<!-- TRANSITIONS -->
 	<transition>
@@ -306,6 +309,24 @@
 		</layout>
 		<label>Vyberatie možnosti prihlásenia ako uchádzač</label>
 		<dataGroup>
+			<id>DataGroup_1</id>
+			<dataRef>
+				<id>enumeration_1</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>3</y>
+					<rows>1</rows>
+					<cols>1</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
+		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
 				<id>button_1</id>
@@ -313,10 +334,10 @@
 					<behavior>visible</behavior>
 				</logic>
 				<layout>
-					<x>0</x>
-					<y>1</y>
-					<rows>2</rows>
-					<cols>4</cols>
+					<x>1</x>
+					<y>0</y>
+					<rows>3</rows>
+					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
 				</layout>
@@ -328,12 +349,11 @@
 				</logic>
 				<layout>
 					<x>1</x>
-					<y>5</y>
+					<y>3</y>
 					<rows>1</rows>
-					<cols>2</cols>
+					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -359,8 +379,8 @@
 				<layout>
 					<x>0</x>
 					<y>0</y>
-					<rows>1</rows>
-					<cols>4</cols>
+					<rows>3</rows>
+					<cols>1</cols>
 					<offset>0</offset>
 					<template>material</template>
 					<appearance>outline</appearance>
@@ -377,6 +397,24 @@
 		</layout>
 		<label>Vyberanie možnosti prihlasenie ako zamestnávateľ</label>
 		<dataGroup>
+			<id>DataGroup_1</id>
+			<dataRef>
+				<id>enumeration_1</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>3</y>
+					<rows>1</rows>
+					<cols>1</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
+		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
 				<id>text_0</id>
@@ -386,8 +424,8 @@
 				<layout>
 					<x>0</x>
 					<y>0</y>
-					<rows>1</rows>
-					<cols>4</cols>
+					<rows>3</rows>
+					<cols>1</cols>
 					<offset>0</offset>
 					<template>material</template>
 					<appearance>outline</appearance>
@@ -402,10 +440,9 @@
 					<x>1</x>
 					<y>3</y>
 					<rows>1</rows>
-					<cols>2</cols>
+					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -414,10 +451,10 @@
 					<behavior>editable</behavior>
 				</logic>
 				<layout>
-					<x>0</x>
-					<y>1</y>
-					<rows>2</rows>
-					<cols>4</cols>
+					<x>1</x>
+					<y>0</y>
+					<rows>3</rows>
+					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
 				</layout>
