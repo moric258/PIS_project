@@ -319,7 +319,6 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance>fill</appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -382,12 +381,12 @@
 			<dataRef>
 				<id>text_0</id>
 				<logic>
-					<behavior>visible</behavior>
+					<behavior>editable</behavior>
 				</logic>
 				<layout>
 					<x>0</x>
 					<y>0</y>
-					<rows>2</rows>
+					<rows>1</rows>
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
@@ -412,16 +411,15 @@
 			<dataRef>
 				<id>button_2</id>
 				<logic>
-					<behavior>visible</behavior>
+					<behavior>editable</behavior>
 				</logic>
 				<layout>
 					<x>0</x>
-					<y>2</y>
+					<y>1</y>
 					<rows>2</rows>
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -673,7 +671,6 @@
 		<label>Registrovanie ako uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_10</id>
 				<logic>
@@ -686,6 +683,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -700,7 +698,6 @@
 		<label>Registrovanie ako zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_13</id>
 				<logic>
@@ -713,6 +710,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -727,7 +725,6 @@
 		<label>Vyplnenie registrácie uchádzača</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>text_32</id>
 				<logic>
@@ -785,7 +782,6 @@
 		<label>Vyplnenie registrácie zamestnávateľa</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>text_35</id>
 				<logic>
@@ -888,7 +884,6 @@
 		<label>Uchádač odošle registráciu</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_12</id>
 				<logic>
@@ -901,6 +896,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -915,7 +911,6 @@
 		<label>Zamestnávateľ odošle registráciu</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_14</id>
 				<logic>
@@ -928,6 +923,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1215,7 +1211,6 @@
 		<label>Zamestnávateľ vyberie pracovnú ponuku</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>multichoice_2</id>
 				<logic>
@@ -1243,7 +1238,6 @@
 		<label>Zamestnávateľ klikne na vymazať pracovnú ponuku</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_15</id>
 				<logic>
@@ -1256,6 +1250,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
