@@ -38,6 +38,8 @@
 		<id>text_2</id>
 		<title></title>
 		<values>area</values>
+		<init>Neplatný email
+</init>
 	</data>
 	<data type="text">
 		<id>text_3</id>
@@ -298,6 +300,111 @@
 			<list/>
 		</view>
 	</data>
+	<data type="text">
+		<id>text_41</id>
+		<title>Email</title>
+		<desc>Email</desc>
+		<init>example.com</init>
+	</data>
+	<data type="text">
+		<id>text_42</id>
+		<title>Miesto výkonu práce</title>
+		<desc>Miesto výkonu práce</desc>
+		<init>Bratislava</init>
+	</data>
+	<data type="text">
+		<id>text_43</id>
+		<title>Výška praconej mzdy v €</title>
+		<desc>Výška praconej mzdy v €</desc>
+		<init>1500</init>
+	</data>
+	<data type="multichoice">
+		<id>multichoice_0</id>
+		<title></title>
+		<desc>Najvyššie dosiahnuté vzdelanie</desc>
+		<values>stredná škola</values>
+		<values>základná škola</values>
+		<values>vysoká škola</values>
+		<init>stredná škola</init>
+	</data>
+	<data type="multichoice">
+		<id>multichoice_6</id>
+		<title>Druh pracovného pomeru</title>
+		<desc>Druh pracovného pomeru</desc>
+		<values>dohoda</values>
+		<values>plný úväzok</values>
+		<values>živnosť</values>
+		<init>plný úväzok</init>
+	</data>
+	<data type="button">
+		<id>button_3</id>
+		<title>Odoslať</title>
+	</data>
+	<data type="button">
+		<id>button_11</id>
+		<title>Odhlásiť profil uchádzača</title>
+	</data>
+	<data type="button">
+		<id>button_16</id>
+		<title>Odhlásiť profil zamestnávateľa</title>
+	</data>
+	<data type="text">
+		<id>text_45</id>
+		<title>Email</title>
+		<desc>Email</desc>
+		<init>example@example.com</init>
+	</data>
+	<data type="text">
+		<id>text_46</id>
+		<title>Miesto výkonu práce</title>
+		<desc>Miesto výkonu práce</desc>
+		<init>Bratislava</init>
+	</data>
+	<data type="text">
+		<id>text_47</id>
+		<title>Požadovaná výška mdzy v €</title>
+		<desc>Požadovaná výška mdzy v €</desc>
+		<init>1500</init>
+	</data>
+	<data type="multichoice">
+		<id>multichoice_7</id>
+		<title>Druh pracovného pomeru</title>
+		<desc>Druh pracovného pomeru</desc>
+		<values>plný úväzok</values>
+		<init>plný úväzok</init>
+	</data>
+	<data type="multichoice">
+		<id>multichoice_8</id>
+		<title>Najvyššie dosiahnuté vzdelanie</title>
+		<desc>Najvyššie dosiahnuté vzdelanie</desc>
+		<values>stredná škola</values>
+		<init>stredná škola</init>
+	</data>
+	<data type="text">
+		<id>text_49</id>
+		<title>Email</title>
+		<desc>Email</desc>
+		<init>example@example.com</init>
+	</data>
+	<data type="text">
+		<id>text_50</id>
+		<title>Miesto výkonu práce</title>
+		<desc>Miesto výkonu práce</desc>
+		<init>Bratislava</init>
+	</data>
+	<data type="text">
+		<id>text_51</id>
+		<title>Požadovaná výška mdzy v €</title>
+		<desc>Požadovaná výška mdzy v €</desc>
+		<init>1500</init>
+	</data>
+	<data type="multichoice">
+		<id>multichoice_9</id>
+		<title>Najvyššie dosiahnuté vzdelanie</title>
+		<desc>Najvyššie dosiahnuté vzdelanie</desc>
+		<values>stredná škola</values>
+		<init>stredná škola</init>
+	</data>
 	<!-- I18NS -->
 	<!-- TRANSITIONS -->
 	<transition>
@@ -340,6 +447,7 @@
 					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -354,6 +462,7 @@
 					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -443,6 +552,7 @@
 					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -457,6 +567,7 @@
 					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -913,8 +1024,8 @@
 	</transition>
 	<transition>
 		<id>t32</id>
-		<x>1293</x>
-		<y>99</y>
+		<x>1284</x>
+		<y>118</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
@@ -1341,7 +1452,6 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1368,7 +1478,6 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1422,7 +1531,6 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1485,7 +1593,6 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1521,7 +1628,6 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1621,6 +1727,99 @@
 			<offset>0</offset>
 		</layout>
 		<label>Odoslanie formuláru ponuky práce emailom</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_3</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>3</x>
+					<y>5</y>
+					<rows>1</rows>
+					<cols>1</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_45</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_46</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>1</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_47</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>2</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>multichoice_7</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>3</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>multichoice_8</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>4</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t82</id>
@@ -1630,6 +1829,100 @@
 			<offset>0</offset>
 		</layout>
 		<label>Chyba vo formulári ponuky práce emailom</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>text_41</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_42</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>1</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_43</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>2</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>multichoice_0</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>4</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>multichoice_6</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>3</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_2</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>1</x>
+					<y>6</y>
+					<rows>1</rows>
+					<cols>2</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t83</id>
@@ -1639,6 +1932,85 @@
 			<offset>0</offset>
 		</layout>
 		<label>Uchádzač opraví chybu vo formulári ponuky práce emailom</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>multichoice_6</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>3</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_49</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_50</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>1</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>text_51</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>2</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>multichoice_9</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>4</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
 	</transition>
 	<transition>
 		<id>t84</id>
@@ -1790,6 +2162,61 @@
 			</dataRef>
 		</dataGroup>
 	</transition>
+	<transition>
+		<id>t87</id>
+		<x>4017</x>
+		<y>2408</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Odhlásiť profil zamestnávateľa</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_16</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
+	</transition>
+	<transition>
+		<id>t88</id>
+		<x>5086</x>
+		<y>920</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Odhlásiť profil uchádzača</label>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_11</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>standard</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
+	</transition>
 	<!-- PLACES -->
 	<place>
 		<id>p12</id>
@@ -1844,7 +2271,7 @@
 		<x>90</x>
 		<y>622</y>
 		<label>Domovská stránka</label>
-		<tokens>1</tokens>
+		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
@@ -1881,8 +2308,8 @@
 	</place>
 	<place>
 		<id>p40</id>
-		<x>1543</x>
-		<y>105</y>
+		<x>1520</x>
+		<y>154</y>
 		<label>Systém skontroluje údaje uchádzača</label>
 		<tokens>0</tokens>
 		<static>false</static>
@@ -2085,6 +2512,14 @@
 		<y>1844</y>
 		<label>Vyplnený formulár pracovnej ponuky</label>
 		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p82</id>
+		<x>6607</x>
+		<y>894</y>
+		<label>Voľný systém</label>
+		<tokens>1</tokens>
 		<static>false</static>
 	</place>
 	<!-- ARCS -->
@@ -2834,5 +3269,44 @@
 		<sourceId>t46</sourceId>
 		<destinationId>p81</destinationId>
 		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a249</id>
+		<type>regular</type>
+		<sourceId>p13</sourceId>
+		<destinationId>t87</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a250</id>
+		<type>regular</type>
+		<sourceId>t87</sourceId>
+		<destinationId>p82</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>6607</x><y>2392</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a251</id>
+		<type>regular</type>
+		<sourceId>p12</sourceId>
+		<destinationId>t88</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>2364</x><y>892</y></breakPoint>
+	</arc>
+	<arc>
+		<id>a252</id>
+		<type>regular</type>
+		<sourceId>t88</sourceId>
+		<destinationId>p82</destinationId>
+		<multiplicity>1</multiplicity>
+	</arc>
+	<arc>
+		<id>a253</id>
+		<type>regular</type>
+		<sourceId>p82</sourceId>
+		<destinationId>t51</destinationId>
+		<multiplicity>1</multiplicity>
+		<breakPoint><x>3978</x><y>76</y></breakPoint>
+		<breakPoint><x>100</x><y>74</y></breakPoint>
 	</arc>
 </document>
