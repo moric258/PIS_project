@@ -18,14 +18,6 @@
 		<id>button_0</id>
 		<title>Login Uchadzac</title>
 	</data>
-	<data type="button">
-		<id>button_1</id>
-		<title>Uchadzac</title>
-	</data>
-	<data type="button">
-		<id>button_2</id>
-		<title>Zamestnavatel</title>
-	</data>
 	<data type="text">
 		<id>text_0</id>
 		<title>Prihlasit ako :</title>
@@ -405,6 +397,26 @@
 		<values>stredná škola</values>
 		<init>stredná škola</init>
 	</data>
+	<data type="multichoice">
+		<id>multichoice_10</id>
+		<title></title>
+		<values>Uchádzač</values>
+		<values>Zamestnávateľ</values>
+		<view>
+			<list/>
+		</view>
+		<init>Uchádzač</init>
+	</data>
+	<data type="multichoice">
+		<id>multichoice_11</id>
+		<title></title>
+		<values>Zamestnávateľ</values>
+		<values>Uchádzač</values>
+		<view>
+			<list/>
+		</view>
+		<init>Zamestnávateľ</init>
+	</data>
 	<!-- I18NS -->
 	<!-- TRANSITIONS -->
 	<transition>
@@ -415,6 +427,43 @@
 			<offset>0</offset>
 		</layout>
 		<label>Vyberatie možnosti prihlásenia ako uchádzač</label>
+		<dataGroup>
+			<id>DataGroup_3</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>multichoice_10</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>1</x>
+					<y>0</y>
+					<rows>3</rows>
+					<cols>3</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
+		<dataGroup>
+			<id>DataGroup_2</id>
+			<dataRef>
+				<id>multichoice_12</id>
+				<logic>
+					<behavior>visible</behavior>
+				</logic>
+				<layout>
+					<x>1</x>
+					<y>0</y>
+					<rows>3</rows>
+					<cols>3</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
 		<dataGroup>
 			<id>DataGroup_1</id>
 			<dataRef>
@@ -472,12 +521,11 @@
 				</logic>
 				<layout>
 					<x>1</x>
-					<y>7</y>
+					<y>3</y>
 					<rows>1</rows>
-					<cols>2</cols>
+					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -505,6 +553,43 @@
 			<offset>0</offset>
 		</layout>
 		<label>Vyberanie možnosti prihlasenie ako zamestnávateľ</label>
+		<dataGroup>
+			<id>DataGroup_3</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>multichoice_11</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>1</x>
+					<y>0</y>
+					<rows>3</rows>
+					<cols>3</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
+		<dataGroup>
+			<id>DataGroup_2</id>
+			<dataRef>
+				<id>multichoice_12</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>1</x>
+					<y>0</y>
+					<rows>3</rows>
+					<cols>3</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance>outline</appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
 		<dataGroup>
 			<id>DataGroup_1</id>
 			<dataRef>
@@ -577,12 +662,11 @@
 				</logic>
 				<layout>
 					<x>1</x>
-					<y>7</y>
+					<y>3</y>
 					<rows>1</rows>
-					<cols>2</cols>
+					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1452,6 +1536,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1478,6 +1563,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1531,6 +1617,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1593,6 +1680,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1628,6 +1716,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1729,7 +1818,6 @@
 		<label>Odoslanie formuláru ponuky práce emailom</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_3</id>
 				<logic>
@@ -1742,6 +1830,7 @@
 					<cols>1</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -1831,7 +1920,6 @@
 		<label>Chyba vo formulári ponuky práce emailom</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>text_41</id>
 				<logic>
@@ -1934,7 +2022,6 @@
 		<label>Uchádzač opraví chybu vo formulári ponuky práce emailom</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>multichoice_6</id>
 				<logic>
@@ -2172,7 +2259,6 @@
 		<label>Odhlásiť profil zamestnávateľa</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_16</id>
 				<logic>
@@ -2185,6 +2271,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -2199,7 +2286,6 @@
 		<label>Odhlásiť profil uchádzača</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_11</id>
 				<logic>
