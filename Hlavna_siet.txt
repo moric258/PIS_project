@@ -1303,7 +1303,6 @@
 		<label>Zamestnávateľ odošle registráciu</label>
 		<dataGroup>
 			<id>DataGroup_1</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>text_52</id>
 				<logic>
@@ -1394,6 +1393,7 @@
 					<cols>2</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1498,7 +1498,6 @@
 		<label>Nesprávne údaje zamestnávateľa</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>text_62</id>
 				<logic>
@@ -1829,7 +1828,6 @@
 		<label>Vymazanie pracovnej ponuky</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>button_1</id>
 				<logic>
@@ -1842,6 +1840,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -1883,7 +1882,6 @@
 		<label>Zamestnávateľ klikne na vymazať pracovnú ponuku</label>
 		<dataGroup>
 			<id>DataGroup_1</id>
-			<layout>grid</layout>
 			<dataRef>
 				<id>text_68</id>
 				<logic>
@@ -1929,6 +1927,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -3050,7 +3049,15 @@
 		<id>p82</id>
 		<x>6607</x>
 		<y>894</y>
-		<label>Voľný systém</label>
+		<label>VOĽNÝ SYSTÉM</label>
+		<tokens>0</tokens>
+		<static>false</static>
+	</place>
+	<place>
+		<id>p83</id>
+		<x>103</x>
+		<y>239</y>
+		<label>ZAČIATOK</label>
 		<tokens>1</tokens>
 		<static>false</static>
 	</place>
@@ -3835,10 +3842,8 @@
 	<arc>
 		<id>a253</id>
 		<type>regular</type>
-		<sourceId>p82</sourceId>
+		<sourceId>p83</sourceId>
 		<destinationId>t51</destinationId>
 		<multiplicity>1</multiplicity>
-		<breakPoint><x>3978</x><y>76</y></breakPoint>
-		<breakPoint><x>100</x><y>74</y></breakPoint>
 	</arc>
 </document>
