@@ -529,6 +529,26 @@
 		<init>Informácie o práci
 </init>
 	</data>
+	<data type="button">
+		<id>button_2</id>
+		<title>Ponuky práce emailom</title>
+	</data>
+	<data type="button">
+		<id>button_17</id>
+		<title>Odhlásenie z pracovnej ponuky</title>
+	</data>
+	<data type="button">
+		<id>button_18</id>
+		<title>Prihlásiť na pracovnú ponuku</title>
+	</data>
+	<data type="button">
+		<id>button_19</id>
+		<title>Prihlásiť na pracovnú ponuku</title>
+	</data>
+	<data type="button">
+		<id>button_20</id>
+		<title>Odhlásiť z pracovnej ponuky</title>
+	</data>
 	<!-- I18NS -->
 	<!-- TRANSITIONS -->
 	<transition>
@@ -1966,38 +1986,12 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Výber možnosti prihlásenia na pracovnú ponuku</label>
+		<label>Výber prihlásenie na pracovnú ponuku / Uchádzač</label>
 		<dataGroup>
-			<id>DataGroup_0</id>
+			<id>DataGroup_1</id>
+			<layout>grid</layout>
 			<dataRef>
-				<id>button_4</id>
-				<logic>
-					<behavior>visible</behavior>
-				</logic>
-				<layout>
-					<x>0</x>
-					<y>0</y>
-					<rows>1</rows>
-					<cols>4</cols>
-					<offset>0</offset>
-					<template>material</template>
-					<appearance></appearance>
-				</layout>
-			</dataRef>
-		</dataGroup>
-	</transition>
-	<transition>
-		<id>t72</id>
-		<x>2344</x>
-		<y>1272</y>
-		<layout>
-			<offset>0</offset>
-		</layout>
-		<label>Výber možnosti odhlásenia z pracovnej ponuky</label>
-		<dataGroup>
-			<id>DataGroup_0</id>
-			<dataRef>
-				<id>button_6</id>
+				<id>button_2</id>
 				<logic>
 					<behavior>editable</behavior>
 				</logic>
@@ -2008,7 +2002,95 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>button_17</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>2</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<dataRef>
+				<id>button_4</id>
+				<logic>
+					<behavior>visible</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>1</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
+	</transition>
+	<transition>
+		<id>t72</id>
+		<x>2349</x>
+		<y>1246</y>
+		<layout>
+			<offset>0</offset>
+		</layout>
+		<label>Výber odhlásenia z pracovnej ponuky / Uchádzač</label>
+		<dataGroup>
+			<id>DataGroup_1</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_2</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>button_18</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>1</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
+		<dataGroup>
+			<id>DataGroup_0</id>
+			<dataRef>
+				<id>button_6</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>2</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -2020,7 +2102,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Uchádaž vyberie pracovnú ponuku</label>
+		<label>Výber pracovnej ponuky / Uchádzač </label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2047,7 +2129,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Odoslať životopis</label>
+		<label>Odoslať životopis / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2074,7 +2156,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Systém odošle životopis zamestnávateľovi a presmeruje používateľa</label>
+		<label>Odoslanie životopisu zamestnávateľovi / Systém</label>
 	</transition>
 	<transition>
 		<id>t76</id>
@@ -2083,7 +2165,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Výber prihlásenej pracovnej ponuuky</label>
+		<label>Výber prihlásenej pracovnej ponuky / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2110,7 +2192,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Uchádzač zruší prihlásenie</label>
+		<label>Zrušiť prihlásenie / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2137,7 +2219,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Systém informuje zamestnávateľa o zrušení prihlásenia uchádzača</label>
+		<label>Informovanie zamestnávateľa o zrušení prihlásenia uchádzača / Systém</label>
 	</transition>
 	<transition>
 		<id>t79</id>
@@ -2146,7 +2228,39 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Výber ponuky práce emailom</label>
+		<label>Výber ponuky práce emailom / Uchádzač</label>
+		<dataGroup>
+			<id>DataGroup_1</id>
+			<layout>grid</layout>
+			<dataRef>
+				<id>button_19</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>1</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+			<dataRef>
+				<id>button_20</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>2</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2161,19 +2275,18 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
 	</transition>
 	<transition>
 		<id>t80</id>
-		<x>5279</x>
-		<y>1250</y>
+		<x>5115</x>
+		<y>1247</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyplnenie formuláru ponuky práce emailom</label>
+		<label>Vyplnenie formulára ponuky práce emailom / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2255,12 +2368,12 @@
 	</transition>
 	<transition>
 		<id>t81</id>
-		<x>5929</x>
-		<y>1244</y>
+		<x>5885</x>
+		<y>1250</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Odoslanie formuláru ponuky práce emailom</label>
+		<label>Odoslanie formulára ponuky práce emailom / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2357,12 +2470,12 @@
 	</transition>
 	<transition>
 		<id>t82</id>
-		<x>6282</x>
-		<y>1449</y>
+		<x>6287</x>
+		<y>1467</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Chyba vo formulári ponuky práce emailom</label>
+		<label>Chyba vo formulári ponuky práce emailom / Systém</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2459,12 +2572,12 @@
 	</transition>
 	<transition>
 		<id>t83</id>
-		<x>5902</x>
-		<y>1452</y>
+		<x>5518</x>
+		<y>1459</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Uchádzač opraví chybu vo formulári ponuky práce emailom</label>
+		<label>Oprava formuláru ponuky práce emailom / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2546,12 +2659,12 @@
 	</transition>
 	<transition>
 		<id>t84</id>
-		<x>6295</x>
-		<y>1081</y>
+		<x>6290</x>
+		<y>1055</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Systém spracuje formulár ponuky práce emailom</label>
+		<label>Spracovanie formuláru ponuky práce emailom / Systém</label>
 	</transition>
 	<transition>
 		<id>t85</id>
@@ -2701,7 +2814,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Odhlásiť profil zamestnávateľa</label>
+		<label>Odhlásiť profil zamestnávateľa / Zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -2723,12 +2836,12 @@
 	</transition>
 	<transition>
 		<id>t88</id>
-		<x>5086</x>
-		<y>920</y>
+		<x>5020</x>
+		<y>916</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Odhlásiť profil uchádzača</label>
+		<label>Odhlásiť profil uchádzača / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -3015,7 +3128,7 @@
 	</place>
 	<place>
 		<id>p78</id>
-		<x>5592</x>
+		<x>5514</x>
 		<y>1249</y>
 		<label>Vyplnený formulár ponuky práce emailom</label>
 		<tokens>0</tokens>
