@@ -1032,7 +1032,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Registrovanie ako uchádzač</label>
+		<label>Registrovanie ako uchádzač / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1059,7 +1059,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Registrovanie ako zamestnávateľ</label>
+		<label>Registrovanie ako zamestnávateľ / Zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1086,7 +1086,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyplnenie registrácie uchádzača</label>
+		<label>Vyplnenie registrácie uchádzača / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1139,11 +1139,11 @@
 	<transition>
 		<id>t31</id>
 		<x>872</x>
-		<y>1272</y>
+		<y>1235</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyplnenie registrácie zamestnávateľa</label>
+		<label>Vyplnenie registrácie zamestnávateľa / Zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1245,7 +1245,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Uchádzač odošle registráciu</label>
+		<label>Uchádzač odošle registráciu / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_1</id>
 			<dataRef>
@@ -1315,12 +1315,12 @@
 	</transition>
 	<transition>
 		<id>t33</id>
-		<x>1386</x>
-		<y>1276</y>
+		<x>1378</x>
+		<y>1243</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamestnávateľ odošle registráciu</label>
+		<label>Zamestnávateľ odošle registráciu / Zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_1</id>
 			<dataRef>
@@ -1425,7 +1425,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Systém uloží údaje uchádzača a prihlási ho</label>
+		<label>Systém uloží údaje uchádzača a prihlási ho / Systém</label>
 	</transition>
 	<transition>
 		<id>t36</id>
@@ -1434,7 +1434,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Systém uloží údaje zamestnávateľa a prihlási ho</label>
+		<label>Systém uloží údaje zamestnávateľa a prihlási ho / Systém</label>
 	</transition>
 	<transition>
 		<id>t37</id>
@@ -1443,7 +1443,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Nesprávne údaje uchádzača</label>
+		<label>Nesprávne údaje uchádzača / Systém</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1515,7 +1515,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Nesprávne údaje zamestnávateľa</label>
+		<label>Nesprávne údaje zamestnávateľa / Systém</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1617,7 +1617,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamestnávateľ opravý chybné údaje</label>
+		<label>Zamestnávateľ opravý chybné údaje / Zamestnávateľ</label>
 	</transition>
 	<transition>
 		<id>t40</id>
@@ -1626,7 +1626,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Uchádzač opravý chybné údaje</label>
+		<label>Uchádzač opravý chybné údaje / Uchádzač</label>
 	</transition>
 	<transition>
 		<id>t41</id>
@@ -1845,7 +1845,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vymazanie pracovnej ponuky</label>
+		<label>Vymazanie pracovnej ponuky / Zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1872,7 +1872,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamestnávateľ vyberie pracovnú ponuku</label>
+		<label>Zamestnávateľ vyberie pracovnú ponuku / Zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1899,7 +1899,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamestnávateľ klikne na vymazať pracovnú ponuku</label>
+		<label>Zamestnávateľ klikne na vymazať pracovnú ponuku / Zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_1</id>
 			<dataRef>
@@ -1959,7 +1959,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamestnávateľ nepotvrdí vymazanie</label>
+		<label>Zamestnávateľ nepotvrdí vymazanie / Zamestnávateľ</label>
 	</transition>
 	<transition>
 		<id>t69</id>
@@ -1968,7 +1968,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamestnávateľ potvrdí vymazanie</label>
+		<label>Zamestnávateľ potvrdí vymazanie / Zamestnávateľ</label>
 	</transition>
 	<transition>
 		<id>t70</id>
@@ -1977,7 +1977,7 @@
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Systém vymaže pracovnú ponuku</label>
+		<label>Systém vymaže pracovnú ponuku / Systém</label>
 	</transition>
 	<transition>
 		<id>t71</id>
