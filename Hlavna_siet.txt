@@ -512,10 +512,6 @@
 		<id>text_67</id>
 		<title>Neplatná e-mailová adresa</title>
 	</data>
-	<data type="button">
-		<id>button_1</id>
-		<title>Vytvorené pracovné ponuky</title>
-	</data>
 	<data type="text">
 		<id>text_68</id>
 		<title></title>
@@ -528,10 +524,6 @@
 		<values>area</values>
 		<init>Informácie o práci
 </init>
-	</data>
-	<data type="button">
-		<id>button_2</id>
-		<title>Ponuky práce emailom</title>
 	</data>
 	<data type="button">
 		<id>button_17</id>
@@ -549,16 +541,20 @@
 		<id>button_20</id>
 		<title>Odhlásiť z pracovnej ponuky</title>
 	</data>
+	<data type="button">
+		<id>button_21</id>
+		<title>Vytvorené pracovné ponuky</title>
+	</data>
 	<!-- I18NS -->
 	<!-- TRANSITIONS -->
 	<transition>
 		<id>t5</id>
-		<x>377</x>
-		<y>780</y>
+		<x>393</x>
+		<y>773</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyberatie možnosti prihlásenia ako uchádzač</label>
+		<label>Vyberatie možnosti prihlásenia ako uchádzač / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_3</id>
 			<dataRef>
@@ -622,7 +618,7 @@
 				</logic>
 				<layout>
 					<x>1</x>
-					<y>0</y>
+					<y>3</y>
 					<rows>3</rows>
 					<cols>3</cols>
 					<offset>0</offset>
@@ -636,8 +632,8 @@
 					<behavior>editable</behavior>
 				</logic>
 				<layout>
-					<x>1</x>
-					<y>3</y>
+					<x>0</x>
+					<y>6</y>
 					<rows>1</rows>
 					<cols>3</cols>
 					<offset>0</offset>
@@ -657,7 +653,6 @@
 					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 			<dataRef>
@@ -679,12 +674,12 @@
 	</transition>
 	<transition>
 		<id>t6</id>
-		<x>337</x>
-		<y>1704</y>
+		<x>351</x>
+		<y>1698</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Vyberanie možnosti prihlasenie ako zamestnávateľ</label>
+		<label>Vyberanie možnosti prihlasenie ako zamestnávateľ / Zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_3</id>
 			<dataRef>
@@ -798,19 +793,18 @@
 					<cols>3</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
 	</transition>
 	<transition>
 		<id>t11</id>
-		<x>1701</x>
-		<y>745</y>
+		<x>1722</x>
+		<y>779</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Údaje su validné presmeruje sa na stránku uchádzača</label>
+		<label>Údaje su validné presmeruje sa na stránku uchádzača / Systém</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -832,12 +826,12 @@
 	</transition>
 	<transition>
 		<id>t12</id>
-		<x>1378</x>
-		<y>1877</y>
+		<x>1391</x>
+		<y>1845</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Údaje su validné presmeruje sa na stránku zamestnávateľa</label>
+		<label>Údaje su validné presmeruje sa na stránku zamestnávateľa / Systém</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -859,12 +853,12 @@
 	</transition>
 	<transition>
 		<id>t22</id>
-		<x>899</x>
-		<y>1866</y>
+		<x>875</x>
+		<y>1853</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Zamestnávateľ vyplní formulár</label>
+		<label>Zamestnávateľ vyplní formulár / Zamestnávateľ</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -916,12 +910,12 @@
 	</transition>
 	<transition>
 		<id>t23</id>
-		<x>908</x>
-		<y>1702</y>
+		<x>969</x>
+		<y>1694</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Chyba pri prihlásení zamestnávateľa</label>
+		<label>Chyba pri prihlásení zamestnávateľa / Systém</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -943,12 +937,12 @@
 	</transition>
 	<transition>
 		<id>t24</id>
-		<x>989</x>
-		<y>639</y>
+		<x>1017</x>
+		<y>636</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Uchádzač vyplní formulár</label>
+		<label>Uchádzač vyplní formulár / Uchádzač</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1000,12 +994,12 @@
 	</transition>
 	<transition>
 		<id>t25</id>
-		<x>945</x>
-		<y>868</y>
+		<x>999</x>
+		<y>869</y>
 		<layout>
 			<offset>0</offset>
 		</layout>
-		<label>Chyba pri vyplnení formuláru</label>
+		<label>Chyba pri vyplnení formuláru / Systém</label>
 		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
@@ -1847,6 +1841,23 @@
 		</layout>
 		<label>Vymazanie pracovnej ponuky / Zamestnávateľ</label>
 		<dataGroup>
+			<id>DataGroup_1</id>
+			<dataRef>
+				<id>button_21</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
+		<dataGroup>
 			<id>DataGroup_0</id>
 			<dataRef>
 				<id>button_1</id>
@@ -1988,6 +1999,23 @@
 		</layout>
 		<label>Výber prihlásenie na pracovnú ponuku / Uchádzač</label>
 		<dataGroup>
+			<id>DataGroup_2</id>
+			<dataRef>
+				<id>button_8</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+				</layout>
+			</dataRef>
+		</dataGroup>
+		<dataGroup>
 			<id>DataGroup_1</id>
 			<dataRef>
 				<id>button_2</id>
@@ -1996,7 +2024,7 @@
 				</logic>
 				<layout>
 					<x>0</x>
-					<y>0</y>
+					<y>4</y>
 					<rows>1</rows>
 					<cols>4</cols>
 					<offset>0</offset>
@@ -2016,7 +2044,6 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -2034,7 +2061,6 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -2048,6 +2074,24 @@
 		</layout>
 		<label>Výber odhlásenia z pracovnej ponuky / Uchádzač</label>
 		<dataGroup>
+			<id>DataGroup_2</id>
+			<dataRef>
+				<id>button_8</id>
+				<logic>
+					<behavior>editable</behavior>
+				</logic>
+				<layout>
+					<x>0</x>
+					<y>0</y>
+					<rows>1</rows>
+					<cols>4</cols>
+					<offset>0</offset>
+					<template>material</template>
+					<appearance></appearance>
+				</layout>
+			</dataRef>
+		</dataGroup>
+		<dataGroup>
 			<id>DataGroup_1</id>
 			<dataRef>
 				<id>button_2</id>
@@ -2056,7 +2100,7 @@
 				</logic>
 				<layout>
 					<x>0</x>
-					<y>0</y>
+					<y>5</y>
 					<rows>1</rows>
 					<cols>4</cols>
 					<offset>0</offset>
@@ -2862,7 +2906,7 @@
 					<cols>4</cols>
 					<offset>0</offset>
 					<template>material</template>
-					<appearance>standard</appearance>
+					<appearance></appearance>
 				</layout>
 			</dataRef>
 		</dataGroup>
@@ -2886,32 +2930,32 @@
 	</place>
 	<place>
 		<id>p27</id>
-		<x>615</x>
-		<y>1708</y>
+		<x>696</x>
+		<y>1700</y>
 		<label>Formulár prihlásenia zamestnávateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p29</id>
-		<x>1128</x>
-		<y>1795</y>
+		<x>1142</x>
+		<y>1806</y>
 		<label>Systém skontroluje prihlásenie zamestnávateľa</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p30</id>
-		<x>632</x>
-		<y>763</y>
+		<x>725</x>
+		<y>770</y>
 		<label>Formulár prihlásenia uchádzača</label>
 		<tokens>0</tokens>
 		<static>false</static>
 	</place>
 	<place>
 		<id>p32</id>
-		<x>1363</x>
-		<y>755</y>
+		<x>1359</x>
+		<y>782</y>
 		<label>Systém skontroluje prihlásenie uchádzača</label>
 		<tokens>0</tokens>
 		<static>false</static>
